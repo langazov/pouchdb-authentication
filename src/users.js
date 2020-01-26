@@ -31,7 +31,7 @@ function updateUser(db, user, opts, callback) {
         return callback(new AuthError('cannot use reserved word in metadata: "' + key + '"'));
       }
     }
-    user = assign(user, opts.metadata);
+    user = assign(user, { metadata: opts.metadata });
   }
 
   if (opts.roles) {

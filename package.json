@@ -1,6 +1,6 @@
 {
-  "name": "pouchdb-authentication",
-  "version": "1.1.3",
+  "name": "@langazov/pouchdb-authentication",
+  "version": "1.1.5",
   "description": "PouchDB Authentication",
   "keywords": [
     "pouch",
@@ -35,7 +35,7 @@
   "types": "types/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git@github.com:pouchdb-community/pouchdb-authentication.git"
+    "url": "git@github.com/langazov/pouchdb-authentication.git"
   },
   "scripts": {
     "clean": "rimraf lib dist && mkdirp lib dist",

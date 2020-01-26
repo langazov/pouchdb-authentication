@@ -175,7 +175,7 @@ declare namespace PouchDB {
   }
 }
 
-declare module 'pouchdb-authentication' {
+declare module '@langazov/pouchdb-authentication' {
   const plugin: PouchDB.Plugin;
   export = plugin;
 }
